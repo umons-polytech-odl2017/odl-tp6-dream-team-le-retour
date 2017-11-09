@@ -1,4 +1,4 @@
-public class Pizza implements Food {
+public class Pizza implements Eatable {
 
     private String name;
     private float price;

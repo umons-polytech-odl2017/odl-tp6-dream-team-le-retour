@@ -1,4 +1,4 @@
-public class Ingredient implements Food {
+public class Ingredient implements Eatable {
 
     private String name;
     private float price;
@@ -16,13 +16,4 @@ public class Ingredient implements Food {
         return price;
     }
 
-    @Override
-    public void add() {
-
-    }
-
-    @Override
-    public void remove() {
-
-    }
 }
