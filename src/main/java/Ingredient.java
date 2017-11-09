@@ -1,7 +1,7 @@
 public class Ingredient implements Food {
 
-    String name;
-    float price;
+    private String name;
+    private float price;
 
     public Ingredient(String name, float price) {
         this.name = name;
